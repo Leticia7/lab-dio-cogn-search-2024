@@ -33,10 +33,10 @@ Passo a passo de como configurei uma pesquisa:
 
        Retornar à página inicial do Azure portal e selecionar + create a resoure e clicar em criar um Azure AI Service (ver exemplo em imagem abaixo)
 
-       i![Cogn_Search__lab2](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/5c5c478e-f672-4cfc-bfbe-67deced21af1)
+   ![Cogn_Search__lab2](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/5c5c478e-f672-4cfc-bfbe-67deced21af1)
 
        
-       ![Cogn_Search__lab3](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/5d540417-7498-4cde-86cd-171f4cfdb7dd)
+   ![Cogn_Search__lab3](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/5d540417-7498-4cde-86cd-171f4cfdb7dd)
 
 
     Obs.: Após preencher os dados continuar em review + create e após aguardar a validação bem sucedida clicar novamente em create (que também pode demorar alguns minutos). Verificar detalhes se estão corretos 
@@ -46,13 +46,13 @@ Passo a passo de como configurei uma pesquisa:
       • Criar recurso -> criar Storage account 
       • Preencher dados necessários como exemplifica a imagem abaixo:
 
-      ![Cogn_Search__lab4](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/dd7a02d2-272d-44cd-9daa-d430bcc60dba)
+ ![Cogn_Search__lab4](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/dd7a02d2-272d-44cd-9daa-d430bcc60dba)
 
       
 
     Após o preenchimento dos dados, segue-se como acima selecionando create e depois review após aguardar a validação clicar em detalhes e configuração no menu lateral esquerdo e mudar a configuração para Allow Blob anonymous access -> enable -> save
 
-     ![Cogn_Search__lab7](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/1d16718f-f136-48fa-8e89-fe35d3f94290)
+![Cogn_Search__lab7](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/1d16718f-f136-48fa-8e89-fe35d3f94290)
 
 
     4. Upload de documentos para o container
@@ -70,7 +70,7 @@ Passo a passo de como configurei uma pesquisa:
      • Extrair arquivos do link a seguir (é seguro, pois trata-se de conteúdo oficial da MS): https://aka.ms/mslearn-coffee-reviews
 
        Selecionar container criado -> coffeereviews (no meu caso) e clicar em upload 
-      ![Cogn_Search__lab10](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/8be0b3c1-ee89-4488-9155-3e00816d9a14)
+   ![Cogn_Search__lab10](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/8be0b3c1-ee89-4488-9155-3e00816d9a14)
 
 
        Obs.: Selecionar "Select a file" em Upload blob 
@@ -94,15 +94,15 @@ Passo a passo de como configurei uma pesquisa:
 
         Obs.: Há + outros detalhes que precisam ser adicionados que vou adicionar no link de referências (precisam ser selecionados com cuidado e atenção)
 
-         i![Cogn_Search__lab13](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/a34cc7b3-d6ca-4326-a24c-8e9a54195fc4)
+   ![Cogn_Search__lab13](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/a34cc7b3-d6ca-4326-a24c-8e9a54195fc4)
 
 
         Esta etapa precisa ser detalhada e feita com cuidado porque é onde a conexão entre o container, indexer, skillsets etc. serão conectados para gerar os resultados 
-       ![Cogn_Search__lab11](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/ff71218f-d99d-424d-bdac-3350e38e6c03)
+   ![Cogn_Search__lab11](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/ff71218f-d99d-424d-bdac-3350e38e6c03)
 
          Ao selecionar um indexer é possível ver detalhes 
 
-        ![Cogn_Search__lab14](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/55330980-feab-410d-903a-8012b1109ae8)
+   ![Cogn_Search__lab14](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/55330980-feab-410d-903a-8012b1109ae8)
         
 
     6. Pesquisar 
@@ -113,10 +113,10 @@ Passo a passo de como configurei uma pesquisa:
 
        As imagens a seguir mostram exemplos de pesquisa abaixo
 
-       ![Cogn_Search__lab17](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/3d38a96c-5ba3-4648-9eef-bf9e3295d50e)
+  ![Cogn_Search__lab17](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/3d38a96c-5ba3-4648-9eef-bf9e3295d50e)
 
 
-       ![Cogn_Search__lab18](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/a93ae590-bb47-450b-b973-f39cc6e02c47)
+  ![Cogn_Search__lab18](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/a93ae590-bb47-450b-b973-f39cc6e02c47)
 
 
 
@@ -124,7 +124,7 @@ Passo a passo de como configurei uma pesquisa:
      
         Ao abrir um documento é possível ver como ele é salvo para ser encontrado e identificado pela IA
 
-       ![Cogn_Search__lab19](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/5900d462-bd6b-401a-8b5d-f152b386e058)
+ ![Cogn_Search__lab19](https://github.com/Leticia7/lab-dio-cogn-search-2024/assets/65042673/5900d462-bd6b-401a-8b5d-f152b386e058)
 
          
 
